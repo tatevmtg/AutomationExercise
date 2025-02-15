@@ -34,20 +34,3 @@ describe("APIs List for practice", () => {
     });
   });
 });
-
-// let getTitle;
-// describe("JsonPlaceholder", () => {
-//   it("Get post", () => {
-//     cy.getPosts(() => {}).then((resp) => {
-//       cy.log(resp);
-//       expect(resp.body.userId).to.eq(1);
-//       expect(resp.body.id).to.eq(3);
-//       getTitle = resp.body.title;
-//     });
-//   });
-//   it("Create new Post", () => {
-//     cy.createPost(152, getTitle).then((resp) => {
-//       cy.log(resp.body); // Log the response body or any other data you need
-//     });
-//   });
-// ;
