@@ -1,5 +1,5 @@
-import { productsListResult } from "../fixtures/ProductsList.json";
-import { brandsListResult } from "../fixtures/BrandsList.json";
+import { productsListResult } from "../../fixtures/ProductsList.json";
+import { brandsListResult } from "../../fixtures/BrandsList.json";
 
 describe("APIs List for practice", () => {
   it("1. Get All Products List", () => {
